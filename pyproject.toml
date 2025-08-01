@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mem0-embeddings-litellm-patch"
-version = "1.0.0"
+version = "1.0.8"
 description = "Almost all known embedding model providers available via litellm patch"
 readme = "README.md"
 license = {text = "MIT"}
@@ -25,4 +25,8 @@ dependencies = [
 [tool.setuptools]
 include-package-data = true
 zip-safe = false
-packages = ["mem0"]
+packages = [
+"mem0",
+"mem0.embeddings",
+"mem0.utils"
+]
