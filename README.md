@@ -33,7 +33,7 @@ After installing this patch you can use all embedding providers available via li
 ## 📢 Why This Exists
 
 The mem0 maintainers have not yet merged support for LiteLLM-based embeddings, despite it being a fast, extensible abstraction layer.
-This patch bridges the gap until (or if) native support is added upstream. No need to fork and maintain a full project if you can just maintain the patch files instead am i right? :D No need to fork and maintain a full project if you can just maintain the patch files instead am i right? :D
+This patch bridges the gap until (or if) native support is added upstream. No need to fork and maintain a full project if you can just maintain the patch files instead am i right? :D 
 
 ## 📬 Feedback / Contributing
 
