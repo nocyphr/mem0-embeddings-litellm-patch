@@ -21,6 +21,20 @@ dependencies = [
     "litellm>=1.0.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/nocyphr/mem0-embeddings-litellm-patch"
+Repository = "https://github.com/nocyphr/mem0-embeddings-litellm-patch"
+
+[tool.setuptools]
+include-package-data = true
+zip-safe = false
+packages = [
+    "mem0",
+    "mem0.embeddings",
+    "mem0.utils"
+]
+
+
 
 [tool.setuptools]
 include-package-data = true
@@ -30,3 +44,4 @@ packages = [
 "mem0.embeddings",
 "mem0.utils"
 ]
+
