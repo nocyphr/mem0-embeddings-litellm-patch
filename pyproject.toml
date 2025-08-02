@@ -34,14 +34,3 @@ packages = [
     "mem0.utils"
 ]
 
-
-
-[tool.setuptools]
-include-package-data = true
-zip-safe = false
-packages = [
-"mem0",
-"mem0.embeddings",
-"mem0.utils"
-]
-
